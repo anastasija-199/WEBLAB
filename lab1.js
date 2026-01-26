@@ -51,3 +51,28 @@ function findLargestNumber(numbers) {
 
 const arr = [3, 7, 2, 9, 5]; // Example from assignment [cite: 9]
 console.log("Largest Number:", findLargestNumber(arr)); // Output: 9
+
+// 4. Functions - Factorial
+function calculateFactorial(n) {
+    if (n === 0 || n === 1) return 1;
+    let result = 1;
+    for (let i = 2; i <= n; i++) {
+        result *= i;
+    }
+    return result;
+}
+
+console.log("Factorial of 5:", calculateFactorial(5)); // Output: 120
+
+// 5. Objects
+const car = {
+    make: "Toyota",
+    model: "Camry",
+    year: 2022,
+    color: "Silver"
+};
+
+console.log("Car Object:", car);
+// Logging specific values
+console.log("Car Make:", car.make);
+console.log("Car Year:", car.year);
