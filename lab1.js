@@ -76,3 +76,4 @@ console.log("Car Object:", car);
 // Logging specific values
 console.log("Car Make:", car.make);
 console.log("Car Year:", car.year);
+
